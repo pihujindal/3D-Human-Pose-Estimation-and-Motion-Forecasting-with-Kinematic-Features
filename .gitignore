@@ -1,0 +1,36 @@
+# Python environments
+venv/
+mediapipe_env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# Large/generated data
+data/raw/
+data/processed/features/*.csv
+data/processed/sequences/*.npy
+data/processed/predictions/*.npy
+
+# Trained models
+models/*.keras
+models/*.h5
+
+# TensorFlow
+logs/
